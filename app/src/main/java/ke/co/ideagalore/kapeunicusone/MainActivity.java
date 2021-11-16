@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
         dialog.setTitle("Loading News Articles...");
         dialog.show();
 
+        Toast.makeText(getApplicationContext(), "New works in progress", Toast.LENGTH_SHORT).show();
+
         searchView = findViewById(R.id.search_view);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
